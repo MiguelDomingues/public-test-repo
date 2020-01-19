@@ -2,9 +2,10 @@ pipelines:
   pipe1:
     group: simple
     materials:
-      pipeline: MarpCLI
-      stage: Build
-      ignore_for_scheduling: false
+      mat1:
+        pipeline: MarpCLI
+        stage: Build
+        ignore_for_scheduling: false
     stages:
       - build: # name of stage
           jobs:
