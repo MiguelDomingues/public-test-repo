@@ -1,0 +1,12 @@
+[
+  {
+    "name": "%VERSION%-Online-Training-Exercises-EN.zip",
+    "items": [
+      {
+        "action": "marp2pdf",
+        "source": "SimpleSlideDeck.md",
+        "target": "SimpleSlideDeck.pdf"
+      }
+    ]
+  }
+]
